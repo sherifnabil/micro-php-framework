@@ -1,0 +1,61 @@
+
+/*Start the Mani Rulez*/
+body {background-color:#f4f4f4; font-size: 16px}
+h1 {margin: 50px 0; color:#666; font-weight: bold;}
+/*End the main rulez*/
+
+
+/*start bootstrap edits*/
+.navbar {
+    border-radius: 0;
+}
+
+.nav > li > a, 
+.navbar-brand 
+{
+    padding: 15px 11px;
+}
+
+.navbar-brand{font-size: 1em}
+
+
+.dropdown-menu{
+	min-width: 180px;
+	font-size: 1em;
+	border:none;
+	border-radius: 0;
+	padding: 0;
+	background-color:#3498db;
+    color:#FFF;
+}
+
+.dropdown-menu>li>a {
+    color:#FFF;
+padding: 10px 15px;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+background-color: #9b59b6
+}
+/*End bootstrap edits*/
+
+
+/*Start categories page*/
+
+.item-box{
+	position: relative;
+	background: #fff
+}
+.item-box img {
+width: 100%
+
+}
+
+.item-box.price-tag{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	color: #fff;
+	background-color: #ccc;
+	padding: 2px 5px
+}
+/*End categories Page*/

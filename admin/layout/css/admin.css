@@ -1,0 +1,261 @@
+
+/*Start the Mani Rulez*/
+body {background-color:#f4f4f4; font-size: 16px}
+h1 {margin: 50px 0; color:#666; font-weight: bold;}
+/*End the main rulez*/
+/*start index page*/
+
+
+
+.login{
+	width:400px;
+	margin: auto;
+	margin-top: 150px
+}
+.login h4{
+	font-size: 24px;
+	color: #949494;
+	font-weight: bold;
+}
+.login input{
+	margin-bottom: 5px
+}
+.login input[placeholder]{
+	text-align: center;
+	font-size: 16px 
+}
+
+
+
+
+/*End index page*/
+/*start Dashboard page*/
+.stat {
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 15px 13px;
+	position: relative;
+	overflow: hidden;
+	height: 190px
+
+}
+.stat .info{
+	color: #fff;
+	float: right;
+	width: calc(100% - 98px);
+}
+ 
+.stat i{
+	font-size: 80px;
+    color: #FFF;
+    position: absolute;
+    left: 27px;
+    top: 50px;
+}
+	.stat .info h4{
+		margin-bottom: 16px
+
+	}
+.stat .info span a {
+		font-size: 80px;
+		text-decoration: none;
+		color: #FFF;
+		display: block;
+}
+.st-members{
+	background: #2ecc71
+}
+.st-pending{
+	background: #e74c3c
+}
+.st-items{
+	background: #8e44ad
+}
+.st-comments{
+	background: #3498db
+}
+
+.avatar img{
+	width: 50px;
+	height: 50px
+}
+
+
+.lat li {
+	overflow: hidden;
+	margin: 2px 0;
+	padding:5px 0px  5px 7px;
+
+}
+
+.lat li:nth-child(odd){
+	background: #eaeaea;
+	border-radius: 3px
+}
+.lat .appro{
+	margin-right: 8px
+}
+
+.latee li,{
+	overflow: hidden;
+}
+.latee .comment-box .texts{
+	overflow: hidden;
+	position: relative;
+	margin-top: 10px 
+}
+
+.latee .comment-box .comm{
+	float: right;
+	background: #e2e2e2;
+	width: calc(100% - 65px);
+	 padding:10px 15px;
+	 margin-bottom: 10px
+
+}
+.latee .comment-box .comm:before {
+	content:'';
+	position: absolute;
+	left: 37px;
+	top: -2px;
+	width: 0;
+	height: 0;
+	display: block;
+	border-style: solid;
+	border-width: 15px;
+	border-color: transparent #e2e2e2 transparent transparent
+
+}
+.latee .comment-box .buttns{
+	margin-bottom: 50px
+}
+.latee .comment-box .buttns span{
+	margin-left: 8px
+}
+
+
+/*End Dashboard page*/
+
+/*start bootstrap edits*/
+.navbar {
+    border-radius: 0;
+}
+
+.nav > li > a, 
+.navbar-brand 
+{
+    padding: 15px 11px;
+}
+
+.navbar-brand{font-size: 1em}
+
+
+.dropdown-menu{
+	min-width: 180px;
+	font-size: 1em;
+	border:none;
+	border-radius: 0;
+	padding: 0;
+	background-color:#3498db;
+    color:#FFF;
+}
+
+.dropdown-menu>li>a {
+    color:#FFF;
+padding: 10px 15px;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+background-color: #9b59b6
+}
+/*End bootstrap edits*/
+
+/*start the edit*/
+
+.main-table td{ 
+background-color: #fff;
+vertical-align: middle !important }
+.main-table tr:first-child td {
+	
+ 	color: #FFF;
+    background: #333;
+}
+.main-table .btn{padding: 3px 10px}
+
+/*end the edit*/
+
+
+/*Start categories*/
+.category .panel-body{
+	padding: 0
+}
+.category .option .active{
+	color: #e74c3c; 
+	font-weight: bold;
+	padding: 10px 0;
+	text-decoration: none;
+}
+.category .cats{
+margin: 0 0 10px;
+padding: 10px 15px;
+position: relative;
+overflow: hidden;}
+.category .cats:hover{
+	background-color: #eee
+}
+.category .cats h3{
+	color: #6a6a6a;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.category .cats .hidden-buttons{
+	right: -170px;
+	top: 30px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	position: absolute;
+
+}
+.category .cats:hover .hidden-buttons{
+    right: 20px;
+	
+}
+
+
+.category .cats hr{border: 1px solid #eee ; margin: 0 }
+.category .cats:last-of-type hr {display: none;
+}
+
+.category .cats .comment,
+.category .cats .visiability,
+.category .cats .ads {
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.category .cats .comment {background: #2c3e50;}
+.category .cats .visiability {background: #e74c3c;}
+.category .cats .ads {background: #5f27cd}
+
+
+
+
+.headd{
+	margin: 15px 0 10px 20px;
+	font-weight: bold;
+	color: #d44141
+}
+.child-tex{
+	margin: 5px 0 15px 30px;
+}
+.cats .child-tex li a:before{
+	content: "- "
+	}
+/*End Categories*/
+
+/*Start items page*/
+
+/*End items Page*/

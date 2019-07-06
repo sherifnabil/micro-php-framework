@@ -1,0 +1,240 @@
+
+/*Start the Mani Rulez*/
+body {background-color:#f4f4f4; font-size: 16px}
+h1 {margin: 50px 0; color:#666; font-weight: bold;}
+/*End the main rulez*/
+
+
+
+/*Upper bar edit*/
+.sign{
+	padding: 10px;
+}
+.upper-bar{
+	padding: 10px
+}
+.upper-bar img{
+	width: 33px;
+	height: 33px;
+	display: inline-block;
+	 }
+/*start bootstrap edits*/
+.navbar {
+    border-radius: 0;
+}
+
+.nav > li > a, 
+.navbar-brand 
+{
+    padding: 15px 11px;
+}
+
+.navbar-brand{font-size: 1em}
+
+
+.dropdown-menu{
+	min-width: 180px;
+	font-size: 1em;
+	border:none;
+	border-radius: 0;
+	padding: 0;
+	background-color:#3498db;
+    color:#FFF;
+}
+
+.dropdown-menu>li>a {
+    color:#FFF;
+padding: 10px 15px;}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+background-color: #9b59b6
+}
+/*End bootstrap edits*/
+
+/*Start login*/
+.logs h1{
+	color: #b3a6a6
+}
+.logs h1 span{
+	cursor: pointer;
+}
+.logs h1 [data-class="login"].active{
+	color: #337ab7
+
+}
+
+.logs h1 [data-class="signup"].active{
+	color: #5cb85c
+}
+
+
+
+.logs form {
+	max-width: 350px;
+	margin: auto;
+
+
+}
+.logs .signup{
+	display: none;
+
+}
+.login input, .signup input{
+	margin-bottom: 5px
+}
+
+.error{
+	border-left: 5px solid #d44949;
+	border-radius: 3px;
+	color: #675b5b;
+	background: #fff;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px
+}
+.err{
+	border-color: 	#50d422;
+
+
+}
+/*End login*/
+
+
+
+/*Start categories page*/
+.item-box{
+	position: relative;
+}
+.item-box img{
+	width: 100%
+}
+.item-box .price-tag{
+	position: absolute;
+	background: #9c8585;
+	padding: 2px 5px;
+	left: 0;
+	top: 10px;
+	color: #fff;
+	font-size: 20px 
+}
+.approve-stat{
+	position: absolute;
+	background: #ea3b29;
+	color: #FFF;
+	padding: 5px;
+	top: 48px;
+    left: 0;
+    display: block;
+}
+/*End categories Page*/
+
+/*Start Profile page*/
+.ad .col-md-3 {
+    width: 24%;
+}
+.inform ul{
+	padding: 0;
+	margin: 0
+}
+.inform ul li {
+	padding: 10px
+}
+.inform ul li span{
+	width: 140px;
+	display: inline-block;
+}
+.inform ul li:nth-child(odd) {
+	background: #eee
+}
+.thumbnail .date{
+	font-size: 13px;
+	text-align: right;
+	font-weight: bold;
+	color: #969696;
+	padding: 0 5PX 10PX 0
+}
+
+/*End Profile page*/
+/*start show item page*/
+.item-show h2{
+	margin: 0
+}
+.item-show p{
+	padding: 10px
+}
+.item-show ul li {
+	padding: 10px
+}
+.item-show ul li span{
+	width: 140px;
+	display: inline-block;
+}
+.item-show ul li:nth-child(odd) {
+	background: #e0e0e0}
+
+ .tag {
+	color: #888;
+	margin-left: 5px ;
+	background: #ccc;
+	padding: 3px 5px;
+	border-radius: 3px
+
+}
+
+
+
+.custom-hr{
+		border-top : 2px solid #cabcbc
+}
+.com-area{
+	width: 500px;
+	display: block;
+	margin-bottom: 10px;
+	height: 150px
+}
+
+.comment-box{
+	margin-bottom: 20px
+}
+
+.comment-box img{
+	max-width: 100px;
+	margin-bottom: 10px
+}
+.comment-box .lead{
+position: relative;
+background: #e0e0e0;
+padding: 10px;
+margin-top: 30px
+
+}
+.comment-box .lead:before{
+	content:'';
+	position: absolute;
+	 left: -27px;
+    top: 7px;
+	width: 0;
+	height: 0;
+	display: block;
+	border-style: solid;
+	border-width: 15px;
+	border-color: transparent #e0e0e0 transparent transparent
+}
+
+.my-bt{
+	margin-top: 10px
+}
+
+
+/*End show item page*/
+
+/*Start Ads Page*/
+
+.ad .form-control{
+	min-width: 161%
+}
+.mar{
+	padding: 0 15px
+}
+/*End Ads Page*/
